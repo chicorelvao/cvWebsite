@@ -33,7 +33,7 @@ img {
 
 @media (min-width: 200px) {
     body {
-        background-image: url(../images/index_bg2.png);
+        background-image: url(../images/index_bg2.jpg);
         background-size: 300%;
     }
 }
@@ -42,28 +42,28 @@ img {
 
 @media (min-width: 500px) {
     body {
-        background-image: url(../images/index_bg2.png);
+        background-image: url(../images/index_bg2.jpg);
         background-size: 300%;
     }
 }
 
 @media (min-width: 600px) {
     body {
-        background-image: url(../images/index_bg2.png);
+        background-image: url(../images/index_bg2.jpg);
         background-size: 200%;
     }
 }
 
 @media (min-width: 700px) {
     body {
-        background-image: url(../images/index_bg2.png);
+        background-image: url(../images/index_bg2.jpg);
         background-size: 150%;
     }
 }
 
 @media (min-width: 900px) {
     body {
-        background-image: url(../images/index_bg2.png);
+        background-image: url(../images/index_bg2.jpg);
         background-size: 110%;
     }
 }
