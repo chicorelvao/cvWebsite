@@ -1,28 +1,7 @@
-h1, h4, h6, p{
-    color:#ffffff;
-    
-}
 
-h1{
-    font-weight: 600;
-    color: white;
-   font-size: 60px;
-}
+/*Css file: Homepage*/
 
-
-.color-links{
-    color:white;
-}
-
-.color-links:hover{
-    color:rgb(255, 213, 25);
-}
-
-.text-phone{
-    font-size: 25px;
-    font-weight: 600;
-    
-}
+/*--- Background image ---*/
 img {
     border: solid;
     border-radius: 3%;
@@ -67,6 +46,38 @@ img {
         background-size: 110%;
     }
 }
+
+
+/*--- Headers ---*/
+
+h1, h4, h6, p{
+    color:#ffffff;
+    
+}
+
+h1{
+    font-weight: 600;
+    color: white;
+   font-size: 60px;
+}
+
+/* Navbar links*/
+.color-links{
+    color:white;
+}
+
+.color-links:hover{
+    color:rgb(255, 213, 25);
+}
+
+/*Text for phones*/
+
+.text-phone{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
 
 
 footer{
