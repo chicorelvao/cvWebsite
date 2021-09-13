@@ -18,13 +18,17 @@ h1{
     color:rgb(255, 213, 25);
 }
 
+.text-phone{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
 img {
     border: solid;
     border-radius: 3%;
     border-width: 3px;
     border-color: white;
 }
-
 
 
 @media (min-width: 200px) {
@@ -34,10 +38,33 @@ img {
     }
 }
 
+
+
 @media (min-width: 500px) {
     body {
         background-image: url(../images/index_bg2.png);
-        background-size: 100%;
+        background-size: 300%;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        background-image: url(../images/index_bg2.png);
+        background-size: 200%;
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+        background-image: url(../images/index_bg2.png);
+        background-size: 150%;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        background-image: url(../images/index_bg2.png);
+        background-size: 120%;
     }
 }
 /*
