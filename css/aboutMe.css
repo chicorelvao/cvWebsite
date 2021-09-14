@@ -44,7 +44,7 @@ a:hover {
 }
 
 .jumbotron {
-    background-color: rgba(247, 241, 207, 0.445);
+    background-color: rgba(43, 43, 43, 0.445);
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -54,7 +54,7 @@ body{
     background-color: #ffffff;
     background-image: url(../images/index_bg2.jpg);
     background-repeat: no-repeat;
-    background-size: 200% 150%;
+    background-size: 200% 140%;
 }
 
 footer{
