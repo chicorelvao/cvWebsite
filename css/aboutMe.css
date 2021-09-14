@@ -30,6 +30,9 @@ a {
 
 }
 
+a:hover {
+    color:rgb(255, 213, 25);
+}
 
 
 .carousel-inner{
@@ -42,7 +45,6 @@ a {
 
 .jumbotron {
     background-color: rgba(247, 241, 207, 0.445);
-
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
