@@ -1,20 +1,32 @@
 h1{
     font-weight: 600;
     font-size: 60px;
-    color:#007bff;
 }
 
 h2{
     font-weight: 600;
     font-size: 50px;
-    color:rgb(0, 0, 0);
+
 }
 
+h1,h2,h3,h4, p{
+    color:white;
+
+}
+
+a {
+    color: #b4623d;
+}
 .margin-p{
     margin:1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    color: black;
+
 }
+
+
 
 .carousel-inner{
     padding: auto;
@@ -25,15 +37,18 @@ h2{
 }
 
 .jumbotron {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 10px #e2e2e2;
+    background-color: #6ebff5;
+    background-image: url(../images/index_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    box-shadow: 2px 3px 10px rgba(145, 145, 145, 0.671);
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 body{
-    background-color: rgba(255, 255, 255, 0.966);
+    background-color: #ffffff;
 }
 
 footer{
