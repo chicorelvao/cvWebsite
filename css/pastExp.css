@@ -1,0 +1,51 @@
+h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, p{
+    color:white;
+
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color:rgb(255, 213, 25);
+}
+
+.one{
+    margin: 5%;
+}
+
+
+
+.jumbotron {
+    background-color: rgba(247, 241, 207, 0.445);
+    margin: auto;
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url(../images/index_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+}
+
+footer{
+    margin-top:7%;
+    margin-left: 5%;
+}
