@@ -2,13 +2,13 @@
 /*Css file: Homepage*/
 
 /*--- Background image ---*/
-img {
+
+.profile-pic{
     border: solid;
     border-radius: 3%;
     border-width: 3px;
     border-color: white;
 }
-
 
 @media (min-width: 200px) {
     body {
@@ -78,7 +78,12 @@ h1{
     
 }
 
+/* Link margin for small logos*/
 
+.link-margin{
+    margin: 10px;
+    filter: invert(100%);
+}
 
 footer{
     margin-top:7%;
