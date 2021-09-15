@@ -41,7 +41,9 @@ a:hover {
     color:rgb(255, 213, 25);
 }
 
-
+.carousel{
+    margin:3%;
+}
 .carousel-inner{
     padding: auto;
 }
