@@ -23,7 +23,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 
     <!-- Reference to the stylesheet-->
-    <link rel="stylesheet" href="../css/aboutMe.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- Title to the page-->
     <title> About Me - Francisco Relvão</title>
   </head>
@@ -31,34 +31,19 @@
   <body>
 
 
-    <div class="container">
-      <nav class=" navbar  justify-content-center navbar-expand bg-transparent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link color-links" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link color-links" href="pastExperience.html">Past Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link color-links" href="projects.html">Projects</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <br>
+    <script src="../scripts/navbar.js"></script>
 
 
-  <div class="container-fluid box">
+    <section>
+        <div class="contentDiv">       
+            <div class="container-fluid box experienceDiv">
+                <h1>About Me</h1>
+            </div>
+  <div class="container-fluid box experienceDiv">
 
-    <div class="jumbotron text-center">
-      <h1 class="text-center">About Me</h1>
-    </div>
-    <br>
     <div class="row">
       <div class="col-sm-6 justify-content-center">
-        <<img  class="img-fluid mx-auto d-block" src="../images/aboutMe1.jpg" width="370px" alt="My profile pick">
+        <img  class="img-fluid mx-auto d-block" src="../images/aboutMe1.jpg" width="370px" alt="My profile pick">
       </div>
 
       <div class="col-sm-6 justify-content-center">
@@ -75,22 +60,23 @@
 
   <br>
 
-  <div class="container-fluid box">
-    <div class="jumbotron">
-      <h1 class="text-center ">Hobbies</h1>
-    </div>
+  <div class="experienceDiv">
+      <h1>Hobbies</h1>
   </div>
   <br>
+  <div class="experienceDiv">
   <p class="margin-p">Throughout my life, I participated in various activities involving other people. During these, it always came to my mind the importance of teamwork and having a good and relaxed social environment. 
     I really enjoy my hobbies, but it’s not always about joy. They are also a way for me to learn and improve various traits of my personality and areas in my life. 
     
   </p>
   <br>
-  <div id="demo" class="carousel slide" data-ride="carousel">
+
+
+  <div class="carousel slide" data-ride="carousel">
 
   
     <!-- The slideshow -->
-    <div class="carousel-inner jumbotron container">
+    <div class="carousel-inner">
 
       <div class="carousel-item active">
         <h2>Scouts Moviment</h1>
@@ -155,12 +141,15 @@
   
   </div>
 
-  <footer class="footer-distributed">
-    <div class="footer-left">
-      <p>Francisco Relvão - 2021</p>
-    </div>
-  </footer>
+</div>
+</div>
 
+
+
+    </section>
+
+
+    <script src="../scripts/footer.js"></script>
   
   </body>
 </html>
