@@ -1,10 +1,14 @@
 const templateFooter = document.createElement('template');
 
 templateFooter.innerHTML = `
-<footer class="footer-distributed">
-<div class="footer-left">
-  <p>Francisco Relvão - 2021</p>
-</div>
+<footer>
+    <div class="iconWithHeaderDiv">
+        <p style="margin-right:10px">Francisco Relvão - 2023</p>
+        <a href="https://github.com/chicorelvao"> 
+            <img  class="socialMediaIcon" src="../images/icons/github.png" width=20px alt="github link"></a>
+        <a href="https://www.linkedin.com/in/franciscorelvao/"> 
+            <img  class="socialMediaIcon" src="../images/icons/linkedin.png" width=20px alt="linkedin profile"></a>
+    </div>
 </footer>
 `;
 
